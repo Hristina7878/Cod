@@ -1,0 +1,25 @@
+>>> print 3*5
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(3*5)?
+>>> print '3*5'
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print('3*5')?
+>>> print('3*5')
+3*5
+>>> print 3*5
+SyntaxError: Missing parentheses in call to 'print'. Did you mean print(3*5)?
+>>> print (3*5)
+15
+>>> print (3+5)
+8
+>>> print (2345*6789)
+15920205
+>>> print (2620013+252009|34)
+2872054
+>>> print (2620013+252009/34)
+2627425.029411765
+>>> print ('cat'+'dog')
+catdog
+>>> print (('Hello, World!')*20)
+Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!Hello, World!
+>>> print (('Hello, World! ')*20)
+Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! Hello, World! 
+>>> 
