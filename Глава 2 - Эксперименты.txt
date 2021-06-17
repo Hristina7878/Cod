@@ -1,0 +1,32 @@
+1. cup = 5
+   print (cup)
+----------------
+2.  cup = 5
+    print (cup)
+5
+    cup = 8
+    print (cup)
+8
+---------------
+3.  cup = "чашка кофе"
+    print (cup)
+чашка кофе
+---------------
+4. 
+>>> DaysPerWeek = 7
+>>> HoursPerDay = 24
+>>> MinutesPerHour = 60
+>>> print (DaysPerWeek * HoursPerDay)
+168
+>>> print ((DaysPerWeek * HoursPerDay)* MinutesPerHour)
+10080
+---------------
+5.
+>>> DaysPerWeek = 7
+>>> HoursPerDay = 26
+>>> MinutesPerHour = 60
+>>> print (DaysPerWeek * HoursPerDay)
+182
+>>> print ((DaysPerWeek * HoursPerDay)* MinutesPerHour)
+10920
+>>> 
